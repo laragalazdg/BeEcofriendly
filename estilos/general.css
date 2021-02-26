@@ -1,0 +1,132 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+@font-face{
+	font-family: 'Montserrat';
+ 	src: url('../FONT/Montserrat-Regular.ttf');
+}
+@font-face{
+	font-family: 'Believer';
+ 	src: url('../FONT/Believer-DEMO.otf');
+}
+
+#wrapper {
+	font-family: 'Montserrat';
+	width: 1250px;
+	margin: 0 auto;
+	color: #000;
+}
+
+#tope{
+	 overflow: hidden;
+	 margin-top: 10px;
+
+}
+
+
+#logo img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+#redes1 {
+	float: left;
+
+}
+#registro1 {
+	float: right;
+	text-align: right;
+
+}
+
+#registro1 a{
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#registro1 a:visited {
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
+}
+
+#footer {
+	 overflow: hidden;
+	 padding: 30px;
+}
+
+#items {
+	float: left;
+	padding: 10px;
+}
+
+
+#logoFooter img {
+	width: 20%;
+	height: auto;
+	display: block;
+	margin-left: 480px;
+	margin-right: 400px;
+}
+
+#loginNews {
+	float: right;
+	margin-top: 40px;
+	margin-right: 20px;
+}
+
+.email{
+	padding: 5px;
+}
+.news {
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+/*MENU DE NAVEGACION*/
+#nav {
+	height: 70px;
+	text-align: center;
+}
+
+#nav > ul {
+	display: inline-block;
+}
+
+#nav a {
+	display: block;
+	border-radius: 6px;
+	color: #000;
+}
+/*cambiar los colores de links*/
+#nav > ul a:hover {
+	background: #6F9501;
+	color: #FFF;
+}
+
+#nav > ul a:active {
+	background: #396305;
+	color: #FFF;
+}
+
+#nav > ul > li {
+	font-size: 25px;
+	list-style:none;
+	float: left;
+	padding: 10px;
+}
+
+#nav li > a{
+	padding: 10px;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+

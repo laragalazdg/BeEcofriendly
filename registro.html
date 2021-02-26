@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BE friendly</title>
+	<link rel="shortcut icon" href="imagenes\favLY.ico">
+
+	<script type="text/javascript" src="funciones/funcionesRegistro.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="estilos/general.css" />
+	<link rel="stylesheet" type="text/css" href="estilos/registro.css" />
+
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id="wrapper">
+		<div id="encabezado">
+			<div id="logo">
+				<a href="index.html"><img src="imagenes\LOGOrectangular.png" alt="logo BE friendly"></a>
+			</div>
+
+		</div>
+		<div id="fondo">
+			<div id="formulario" action="#">
+				<form id="form">
+					<label>Nombre: </label><input type="text" name="Nombre" id="nombre" class="">
+					<label>Apellido: </label><input type="text" name="Apellido" id="apellido" class=""><br>
+					<label>Fecha de Nacimiento: </label>
+					<label>día</label><input type="number" id="dia" class="" >
+					<label>mes: </label>
+					<select id="mes">
+						<option value="enero">enero</option>
+						<option value="febrero">febrero</option>
+						<option value="marzo">marzo</option>
+						<option value="abril">abril</option>
+						<option value="mayo">mayo</option>
+						<option value="junio">junio</option>
+						<option value="julio">julio</option>
+						<option value="agosto">agosto</option>
+						<option value="septiembre">septiembre</option>
+						<option value="octubre">octubre</option>
+						<option value="noviembre">noviembre</option>
+						<option value="diciembre">diciembre</option>
+					</select>
+					<label>año</label><input type="number" id="anio" class="" ><br>
+
+					<label>Email</label> <input type="email" name="email" id="email" class="" >
+					<label>Género</label>
+					<select name="genero" id="genero">
+						<option value="femenino">femenino</option>
+						<option value="masculino">masculino</option>
+						<option value="no binario">no binarie</option>
+					</select><br>
+					<button id="btn-cancelar" onclick="return back()">CANCELAR</button>
+					<button id="btn-registrarse" type="submit" onclick="verificarDatos(event);">REGISTRARSE</button>
+				</form>
+				<div id="respuesta"></div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		function back() {
+			window.location.replace('index.html');
+			return false;
+		}
+	</script>
+
+
+</body>
+</html>

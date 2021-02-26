@@ -1,0 +1,55 @@
+#tituloEventos{
+	overflow: hidden;
+}
+
+
+#tituloEventos img{
+	margin-top: 15px;
+}
+
+#textoTitulo {
+	float: left;
+	padding-bottom: 20px;
+	padding-right: 10px; 
+	font-family: 'Believer';
+	font-size: 30px;
+}
+
+h1 {
+	color: #B5A93D;
+}
+
+#eventos{
+	overflow: hidden;
+}
+
+.unEvento {
+  float: left;
+  border-radius: 20px;
+  border-width: 1px;
+  position:relative;
+  padding: 10px;
+  margin: 23px;
+  margin-top: 0px;
+  padding-bottom: 70px;
+ }
+
+.unEvento:hover { 
+	background: #E5EDCC;
+}
+		
+.unEvento:active { 
+	background: #6F9501;
+}
+
+.img-eventos{
+	border-radius: 20px;
+	border-width: 1px;
+}
+
+.descripcion {
+	position:absolute;
+  	top:280px;
+  	left: 30px;
+  	z-index:5;
+}

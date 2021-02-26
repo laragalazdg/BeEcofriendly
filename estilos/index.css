@@ -1,0 +1,77 @@
+#etiquetas {
+	overflow: hidden;
+	top: 500px;
+	margin: 0 auto;
+}
+
+.target {
+	float: left;
+	margin: 30px;
+	border-radius: 20px;
+	border-width: 1px;
+}
+
+.target:hover { 
+	background: #E5EDCC;
+}
+		
+.target:active { 
+	background: #98B8C1;
+}
+
+
+#inferior {
+	background-color: #dacb6f;
+	overflow: hidden;
+	border-radius: 20px;
+	border-width: 1px;
+	padding: 10px;
+}
+
+#imagenInicio img{
+	border-radius: 20px;
+	border-width: 1px;
+}
+
+#imagenEco {
+	float: left;
+}
+
+#texto {
+	padding: 25px;
+}
+
+#texto h2 {
+	padding: 8px;	
+	color: #396305;
+}
+
+#texto p {
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+#botonEncuesta a {
+	text-decoration: none;
+	color: #000;	
+	text-align: center;
+}
+
+#botonEncuesta:active{
+	background: #396305;
+	color: #DBF296;
+}
+
+#botonEncuesta button{
+	text-align: center;	
+	float: left;
+	width: 220px;
+	background-color: #8AAD21;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border-width: 1px;
+}
+
+
+

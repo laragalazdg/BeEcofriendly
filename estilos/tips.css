@@ -1,0 +1,73 @@
+#titulotips{
+	overflow: hidden;
+}
+
+#tituloTips img{
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#textoTitulo {
+	float: left; 
+	font-family: 'Believer';
+	font-size: 30px;
+	color: #C9930A;
+}
+
+#tips1{
+	clear: left;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+
+#tips1 h3{
+	font-family: 'Believer';
+	font-size: 60px;
+	color: #C9930A;
+}
+
+#tips1 img {
+	border-radius: 20px;
+	border-width: 1px;
+}
+
+.tip-der {
+	clear: right;
+	float: right;
+	padding: 25px;
+	margin-top: 60px;
+	/*margin-bottom: 30px;*/
+	/*background-color: blue;*/
+}
+
+.tip-izq {
+	clear: left;
+	float: left;
+	padding: 25px;
+	margin-bottom: 60px;
+	/*background-color: green;*/
+}
+
+
+.tip-izq-img {
+	float: left;
+}
+
+.tip-izq-texto {
+	float: left;
+	margin: 20px;
+	width: 300px;
+	height: 100px;
+}
+
+.tip-der-img {
+	float: right;
+}
+
+.tip-der-texto {
+	float: right;
+	margin: 20px;
+	width: 300px;
+	height: 100px;
+}
+

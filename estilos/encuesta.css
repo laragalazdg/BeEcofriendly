@@ -1,0 +1,74 @@
+#encuesta{
+	background: #FFF url('../imagenes/fondoEncuesta.jpg') no-repeat fixed;
+	background-position: center 0;
+	border-radius: 20px;
+	border-width: 1px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#tituloEncuesta {
+	font-family: 'Believer';
+	font-size: 45px;
+	color: #396305;
+	margin-bottom: 20px;
+}
+
+.seccion {
+	margin-bottom: 40px;
+}
+
+.seccion h3 {
+	color: #396305;
+	font-size: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.select {
+	margin-bottom: 10px;
+}
+
+.select-invalid {
+	font-weight: bold;
+	color: #8b0000;
+}
+
+.select select {
+	padding: 5px;
+	margin-left: 5px;
+	font-size: 14px;
+	border-radius: 8px;
+	border-width: 1px;
+}
+
+button {
+	border-radius: 8px;
+	border-width: 1px;
+	font-size: 20px;
+	padding: 10px;
+	background-color: #8AAD21;
+
+}
+
+select {
+	color:#396305;
+	background-color: #E6F7B4;
+}
+
+.divResultado{
+	padding: 20px;
+	margin-top: 20px;
+	margin-left: 435px;
+	background-color: #F4FFD1;
+	height: 70px;
+	width: 300px;
+	border-radius: 25px;
+	border-width: 1px;
+	font-size: 20px;
+	color: #396305;
+	font-weight: bold;
+	box-shadow: 1px 1px 10px rgba(4, 54, 54, .6);
+}

@@ -1,0 +1,19 @@
+.cuerpoExtra {
+	text-align: justify;
+	width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+p {
+	margin-bottom: 10px;
+}
+
+h3, h1, h4 {
+	margin-bottom: 10px;
+	color:#6F9501;
+}
+
+a{
+	text-decoration: none;
+}

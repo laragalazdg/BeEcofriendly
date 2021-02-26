@@ -1,0 +1,92 @@
+#logo {
+	top: 30px;
+}
+
+label{
+	font-size: 20px;
+	font-family: 'Montserrat';
+	line-height: 18px;
+	padding: 3px;
+	/*margin-right: 5px;*/
+	margin-bottom: 20px;
+	/*text-align: left;*/
+}
+
+#fondo{
+	/*margin-left: 100px;*/
+	text-align: center;
+}
+
+form{
+	color:#396305;
+	background-color: #E6F7B4;
+	display: inline-block;
+	padding: 30px;
+	border-radius: 20px;
+	border-width: 2px;
+	box-shadow: 1px 1px 10px rgba(4, 54, 54, .6);
+}
+
+input{
+	color:#396305;
+	margin: 5px;
+	padding: 3px;
+	font-size: 15px;
+	/*width: 200px;*/
+	border-radius: 8px;
+	border-width: 1px;
+}
+
+#dia, #anio {
+	width: 50px;
+}
+.incompleto{
+	border-color: #FF0000;
+}
+
+#wrapper{
+	color: #396305;
+	background: #FFF url('../imagenes/fondoRegistro.jpg') no-repeat fixed;
+	background-position: center 0;
+	align-content: left;
+	height:620px;
+	border-radius: 20px;
+	border-width: 1px;
+}
+
+
+select{
+	color: #396305;
+	border-radius: 8px;
+	border-width: 1px;
+	/*width: 200px;*/
+	margin: 10px;
+	padding: 3px;
+	font-size: 20px;
+	font-family: 'Montserrat';
+	line-height: 18px;
+}
+
+button{
+	color:#396305;
+	background-color: #C3E856;
+	margin: 10px;
+	padding: 5px;
+	border-radius: 8px;
+	border-width: 1px;
+	font-size: 20px;
+}
+.registrarse{
+	padding: 20px;
+	margin-top: 20px;
+	margin-left: 450px;
+	background-color: #F4FFD1;
+	height: 50px;
+	width: 300px;
+	border-radius: 25px;
+	border-width: 1px;
+	font-size: 20px;
+	color: #396305;
+	font-weight: bold;
+	box-shadow: 1px 1px 10px rgba(4, 54, 54, .6);
+}

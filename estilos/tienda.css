@@ -1,0 +1,94 @@
+#tituloTienda{
+	overflow: hidden;
+}
+
+#textoTitulo {
+	float: left;
+	padding-bottom: 20px;
+	padding-right: 10px; 
+	font-family: 'Believer';
+	font-size: 30px;
+}
+
+h1 {
+	color: #fcb600;
+}
+
+#cuerpoTienda {
+	overflow: hidden;
+}
+
+#tituloTienda img{
+	margin-top: 18px;
+}
+
+#columna{
+	float:left;
+	padding: 35px;
+	background-color: #FFE6A8;
+	border-radius: 20px;
+	border-width: 1px;
+
+}
+#columna p{
+	font-size: 25px;
+	color: #000;
+	margin-bottom: 5px;
+}
+#columna a {
+	text-decoration: none;
+	color:#000;
+}
+#columna ul{
+	list-style: none;
+}
+#columna ul li{
+	font-size: 20px;
+	padding: 5px;
+}
+
+#productos {
+	overflow: hidden;
+}
+
+#productos img:hover { 
+	opacity: 0.07;
+  	-webkit-transition: opacity 500ms;
+  	-moz-transition: opacity 500ms;
+  	-o-transition: opacity 500ms;
+  	-ms-transition: opacity 500ms;
+  	transition: opacity 500ms;
+}
+		
+.div-imagen {
+  display:inline-block;
+  position:relative;
+}
+
+.texto-magico {
+	position:absolute;
+  	top:150px;
+  	left:100px;
+  	z-index:-1;
+  	padding:10px;
+  	margin:0;
+}
+
+.fila{
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 40px;
+}
+
+.fila-titulo {
+	margin-left: 10px;
+	font-size: 25px;
+}
+
+.fila-img {
+	padding: 5px;
+	border-radius: 20px;
+	border-width: 1px;
+}
+
+
